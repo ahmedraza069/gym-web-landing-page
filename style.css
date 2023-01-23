@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+/*======================================================
+=====================Common Css end======================
+=========================================================*/
+
+
+/*=======================================================
+=====================Banner Part Start======================
+=========================================================*/
+
+
+/* rahul codding start */
+/* header{
+    background:url(img/Union.png);
+}
+header .navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.banner{
+    padding:200px 0;
+}
+.banner_left h3{
+    color:#fff;
+}
+.banner_left p{
+    color:#fff;
+}
+.banner_left button{
+    color:orange;
+}
+.banner_right h4{
+    color:#fff;
+}
+.banner_right button{
+    color:#DC3545;
+} */
+/* rahul codding end */
+
+
+
+#banner{
+    background-image: url(img/Union.png);
+	background-size:cover;
+	min-height: 860px;
+    width: 100%; 
+    background-position: center;
+    margin: auto;
+    padding: 27px 27px;
+}
+#banner img{
+    width: 170px;
+    height: 116px;
+}
+#banner li{
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#banner li a{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+#banner form{
+    width: 30%;
+}
+#banner h3{
+    margin-top: 200px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 199%;
+}
+#banner h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+#banner p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 26px;
+}
+#banner .right_side{
+
+    border: 5px solid #DC3545;
+    margin-top: 100px;
+    padding: 100px 21px;
+    border-radius: 10px;
+    position: relative;
+}
+#banner .right_side p{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    height: 98px;
+}
+#banner .right_side button{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: .4s;
+}
+#banner .right_side button:hover{
+    background-color: #fff;
+    color: #DC3545;
+}
+/*=======================================================
+=====================Banner Part End======================
+=========================================================*/
+
+/*=======================================================
+==========Banner Down Part Start =====================
+=========================================================*/
+#down_part{
+    margin-top: 57px;
+    margin-bottom: 87px;
+}
+#down_part h3{
+    font-size: 38px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+#down_part p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 16px;
+    line-height: 30px;
+    margin-bottom: 77px;
+}
+#down_part .main .flex_box{
+    height: 536px;
+    background-color: #DC3545;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+#down_part .main .flex_box .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50% ,-20%);
+    margin-bottom: 53px;
+}
+#down_part .main .flex_box .icon i{
+    font-size: 50px;
+    display: block;
+    line-height: 100px;
+    color: #DC3545;
+    text-align: center;
+}
+#down_part .main .flex_box h3{
+    font-size: 38px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+}
+#down_part .main .flex_box p{
+    font-size: 19px;
+    font-weight: 600;
+    position: absolute;
+    color: black;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);    
+}
+#down_part .main .flex_box_one{
+    height: 690px;
+    background-color: #DC3545;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+#down_part .main .flex_box_one:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+#down_part .main .flex_box_one .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50% ,-20%);
+    margin-bottom: 53px;
+}
+#down_part .main .flex_box_one .icon i{
+    font-size: 50px;
+    display: block;
+    line-height: 100px;
+    color: #DC3545;
+    text-align: center;
+}
+#down_part .main .flex_box_one h3{
+    font-size: 38px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+}
+#down_part .main .flex_box_one p{
+    font-size: 19px;
+    font-weight: 600;
+    position: absolute;
+    color: black;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);    
+}
+
+/*=======================================================
+==============Banner Down Part End======================
+=========================================================*/
+
+
+/*=======================================================
+==============Style Part Start======================
+=========================================================*/
+#style .main{
+    margin-top: 100px;
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 0 100%, 0 17%);
+    background-color: #DC3545;
+    height: 1020px;
+    padding: 5px 0;
+
+}
+#style .main .image_main{
+    margin-top: 20px;
+    clip-path: polygon(62% 0, 100% 0, 100% 100%, 0 100%, 0 19%);
+    background-color: black;
+    height: 960px;
+    position: relative;
+}
+#style .main .image_one{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+#style .main .image_two{
+    height: 920px;
+    width: 620px;
+    position: absolute;
+    top: 6%;
+    left: 53%;
+}
+#style .main .image_three{
+    position: absolute;
+    left: 50%;
+    top: 41.5%;
+}
+
+#style .main .write_part h3{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    line-height: 70px;
+}
+#style .main .write_part p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    width: 500px;
+}
+
+
+/*=======================================================
+==============Style Part End======================
+=========================================================*/
+
+
+/*=======================================================
+==============Div Part start======================
+=========================================================*/
+#down_nabvar{
+    margin-top: 120px;
+    line-height: 60px;
+    margin-bottom: 88px;
+}
+
+#down_nabvar h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+#down_nabvar h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #DC3545;
+}
+#down_nabvar .black{
+    height: 293px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    position: relative;
+    
+}
+
+#down_nabvar .black .icon_one i{
+    font-size: 35px;
+    color: #DC3545;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#down_nabvar .black .icon_one h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#down_nabvar .black .btn{
+    position: absolute;
+    top: 100%;
+    left: 65%;
+    transform: translate(-100%, -65%); 
+    transition: 0.4s;
+}
+#down_nabvar .black button{
+    width: 310px;
+    height: 70px;
+    border: none;
+    background-color: #DC3545;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*=======================================================
+==============Div Part End======================
+=========================================================*/
+
+
+/*=======================================================
+==============Prices Part Start======================
+=========================================================*/
+#prices{
+    margin-bottom: 150px;
+}
+#prices h3{
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 54px;
+}
+#prices .flex_box_main{
+    font-size: 100px;
+    font-weight: 700;
+    color: #DC3545;
+    margin-top: 210px;
+}
+#prices .main .flex_box{
+    height: 419px;
+    background-color: #DC3545;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    margin-top: 61px;
+}
+#prices .main .flex_box .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50% ,-20%);
+}
+#prices .main .flex_box .icon i{
+    font-size: 50px;
+    display: block;
+    line-height: 100px;
+    color: #DC3545;
+    text-align: center;
+}
+#prices .main .flex_box h3{
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 41px;   
+    color: #000000; 
+}
+#prices .main .flex_box p{
+    font-size: 19px;
+    font-weight: 600;
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);   
+    margin-top: 35px; 
+}
+#prices .main .flex_box_one{
+    height: 541px;
+    background-color: #DC3545;
+    border-radius: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+#prices .main .flex_box_one:hover{
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;}
+#prices .main .flex_box_one .icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50% ,-20%);
+    margin-bottom: 53px;
+}
+#prices .main .flex_box_one .icon i{
+    font-size: 50px;
+    display: block;
+    line-height: 100px;
+    color: #DC3545;
+    text-align: center;
+}
+#prices .main .flex_box_one h3{
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    color: #000000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);  
+    line-height: 35px;  
+}
+#prices .main .flex_box_one p{
+    font-size: 19px;
+    font-weight: 600;
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -80%);    
+}
+
+
+/*===================================================
+==================prices part end=================
+=====================================================*/
+
+
+
+/*===================================================
+==================Footer part Start=================
+=====================================================*/
+j#footer{
+    margin-bottom: 400px;
+}
+#footer .main{
+    height: 288px;
+    width: 100%;
+    background-image: url("img/file\ cover\ -\ 1.png");
+    padding: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .main_logo img{
+    height: 116px;
+    width: 170px;
+}
+#footer .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#footer .logo .icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+#footer .logo .icon i{
+    font-size: 25px;
+    color: #DC3545;
+}
+#footer li{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*===================================================
+==================Footer part end=================
+=====================================================*/
